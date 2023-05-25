@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">agriapp</string>
+    <string name="button1">Button1</string>
+    <string name="button3">Button3</string>
+    <string name="farmerlogin">Login 1</string>
+    <string name="consumerlogin">Login 2</string>
+    <string name="partnerlogin">Login 3</string>
+    <string name="conslogin">Consumer Login</string>
+</resources>
