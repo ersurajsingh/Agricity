@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button buttonLogin2;
     private Button buttonLogin3;
     private Button buttonLogin4;
+    private Button buttonLogin5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,11 +25,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         buttonLogin2 = findViewById(R.id.buttonLogin2);
         buttonLogin3 = findViewById(R.id.buttonLogin3);
         buttonLogin4 = findViewById(R.id.buttonLogin4);
+        buttonLogin5 = findViewById(R.id.buttonLogin5);
 
         buttonLogin1.setOnClickListener(this);
         buttonLogin2.setOnClickListener(this);
         buttonLogin3.setOnClickListener(this);
         buttonLogin4.setOnClickListener(this);
+        buttonLogin5.setOnClickListener(this);
+
 
     }
 
@@ -48,8 +52,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent3);
                 break;
             case R.id.buttonLogin4:
-                Intent intent4 = new Intent(this, Login3Activity.class);
+                Intent intent4 = new Intent(this, Login4Activity.class);
                 startActivity(intent4);
+                break;
+            case R.id.buttonLogin5:
+                Intent intent5 = new Intent(this, Login5Activity.class);
+                startActivity(intent5);
                 break;
         }
     }

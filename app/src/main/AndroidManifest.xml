@@ -8,7 +8,7 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="AgriCity By Suraj"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Agriapp"
@@ -23,6 +23,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Login3Activity" />
+        <activity android:name=".Login4Activity" />
+        <activity android:name=".Login5Activity" />
     </application>
 
 </manifest>

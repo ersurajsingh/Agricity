@@ -10,39 +10,76 @@
     tools:context=".MainActivity"
     android:background="@drawable/splash">
 
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginRight="16dp"
+        android:autofillHints=""
+        android:background="#99000000"
+        android:hint="@string/enter_email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColorHint="#FFE0B2" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginRight="16dp"
+        android:background="#99000000"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="@color/white"
+        android:autofillHints="" />
+
     <Button
-        android:id="@+id/buttonLogin4"
+        android:id="@+id/buttonLogin5"
         android:layout_width="127dp"
         android:layout_height="71dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/farmerxlogin" />
+
+    <Button
+        android:id="@+id/buttonLogin4"
+        android:layout_width="135dp"
+        android:layout_height="70dp"
         android:layout_below="@id/buttonLogin3"
-        android:layout_marginStart="162dp"
-        android:layout_marginTop="1dp"
-        android:text="@string/conslogin" />
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="444dp"
+        android:text="@string/consumerxlogin" />
 
     <Button
         android:id="@+id/buttonLogin3"
-        android:layout_width="106dp"
+        android:layout_width="122dp"
         android:layout_height="wrap_content"
         android:layout_alignStart="@id/buttonLogin2"
-        android:layout_marginStart="133dp"
-        android:text="@string/partnerlogin" />
+        android:layout_marginStart="117dp"
+        android:text="@string/partnerxlogin" />
 
     <Button
         android:id="@+id/buttonLogin2"
         android:layout_width="100dp"
-        android:layout_height="wrap_content"
+        android:layout_height="1dp"
         android:layout_alignStart="@id/buttonLogin1"
         android:layout_marginStart="141dp"
         android:layout_marginBottom="16dp"
-
-        android:text="@string/consumerlogin" />
+        android:text="@string/consumerlogin"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/buttonLogin1"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-
-        android:text="@string/farmerlogin" />
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_marginBottom="1dp"
+        android:text="@string/farmerlogin"
+        tools:ignore="TouchTargetSizeCheck" />
 
 </RelativeLayout>
