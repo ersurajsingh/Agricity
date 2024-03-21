@@ -1,12 +1,46 @@
-# Agricity
-Blockchain based De-Fi and Benefit Transfers in Agriculture
+# Revolutionizing Agricultural Supply Chains in India with Blockchain and Affinidi's Decentralized Identity Solutions
 
-Aiming to raise Income and reduce latency in benefits for Low Income Farmers under Blockchain Architecture,our Idea is to decentralize existing storage,lessen middlemen and automate the supply chain processes through smart contracts and real-time tracking to enhance efficiency, minimizes delays, and ensures prompt payments, thereby improving the overall income and livelihoods of low-income farmers.For the idea , in the first phase we would onboard the farmers and collect their data Taking into account their annual produce , type of crops, purchase cost, area of land, debts. Similarly in the next phase we would on boarding the Customers from the nearby city where the household needs to be surveyed as what type of rice, vegetable, fruits are mostly preferred, average price and the storage capacity Finally we would do the Data Analysis and create a personalized virtual corridor connecting right farmers to the right consumer where the Farmer knows the demands and price straight away from the end customer.In order to plug loopholes in the DBT system, we propose a blockchain-based system. Blockchain consists of cryptographic hash secured distributed ledgers which maintain an immutable log of transactions between all participants of a blockchain network. They have the ability to execute Smart Contracts, which allow for automation of execution of real-world contracts given that certain specified conditions are met. Appropriating the Governments Aadhaar UID, we aim to develop a smart blockchain which automates the disbursement of subsidy which bypasses the need for banks in rural nodes while creating an auditable and transparent ecosystem to curb corruption and financial mismanagement.<br>
+## Overview:
+Our proposed solution aims to revolutionize agricultural supply chains in India by leveraging blockchain technology and Affinidi's decentralized identity (DID) solutions to enhance efficiency, transparency, and fairness. With a focus on empowering farmers and optimizing the public distribution system (PDS), our solution addresses the challenges faced by farmers, including poor supply chain management, lack of transparency, and financial stress.
+
+## Problem Statement:
+- Farmers in India often face significant challenges, including low income, debt burden, and limited access to markets.
+- The existing Public Distribution System (PDS) suffers from inefficiencies, delays in subsidy disbursement, and corruption, exacerbating the financial stress on farmers.
+- Lack of transparency and accountability in the supply chain leads to wastage of agricultural produce and unfair pricing for farmers.
+
+## Solution Overview:
+Our solution proposes the integration of blockchain technology and Affinidi's DID solutions into agricultural supply chains to decentralize the system, minimize middlemen, and ensure transparency.
 ![Zencon](https://github.com/ersurajsingh/Agricity/assets/36544126/92ed90e7-cb8c-45a4-b0d6-802860091f84)
-
+### Key Innovation: Decentralized Identity with Affinidi
+- **Trustworthy Farmer Onboarding:** Affinidi's SSI eliminates the need for self-reported data. Farmers use their Affinidi credentials to verify identity and prove relevant credentials (land ownership, certifications) during onboarding (Phase 1). This strengthens trust and transparency within the ecosystem.
+- **Data Empowerment for Farmers:** Farmers control their data. They can share specific data points (land size, crop yield) with other stakeholders (consumers, logistics providers) while maintaining control over what information is revealed using Affinidi's selective disclosure capabilities.
 ![50176_hvjhghjgjkhbjk_1440x810](https://github.com/ersurajsingh/Agricity/assets/36544126/894871d4-bd6a-4d57-bd31-47c22d0a10c4)
+### Enhanced Blockchain Integration:
+- **Secure and Transparent Transactions:** Smart contracts automate secure and transparent transactions within the supply chain. Affinidi can be integrated to enable secure and verifiable digital signatures on these smart contracts, ensuring only authorized farmers can claim payments.
+- **Direct and Efficient Payments:** By linking Affinidi SSI with smart contracts, farmers can receive direct and timely payments upon product delivery, eliminating delays and intermediaries.
 
+## Implementation Plan:
+### Phase 1: Secure Farmer Onboarding with Affinidi
+- Integrate Affinidi's SSI SDK to enable farmer registration and verification using their self-sovereign identities.
+- Collect essential data points like annual produce, crop types, and land area.
+- Prioritize onboarding farmers in financial distress for initial access to the platform.
 
-In my idea, I aim to connect the lower income farmers on a priority basis with the customers by creating a common ground between the two stakeholders in the supply chain of the commodities like potato , onions , tomato etc using blockchain technology and uses a smart contract to deliver the payment straight into the farmers account.
-<p align="center"><img width="240" alt="25f0dedpartner" src="https://github.com/ersurajsingh/Agricity/assets/36544126/dba6acba-bcfc-4009-99ec-234ea9ad70e7"></p>
+### Phase 2: Consumer Engagement
+- Survey households and communities to understand consumer preferences, storage capacity, and demand for agricultural products.
+- Onboard consumers onto the platform to create a direct connection between farmers and end consumers.
+
+### Phase 3: Blockchain and Affinidi Integration
+- Implement blockchain technology to facilitate secure and transparent transactions.
+- Integrate Affinidi's SSI to enable secure data sharing and access control among stakeholders.
+- Develop smart contracts to automate processes like payments, subsidy disbursement, and data verification using Affinidi-signed credentials.
+- Utilize data analytics to create a virtual corridor matching supply with demand efficiently.
+
+## Benefits:
+- Empowerment of farmers through secure identities, data control, and direct access to consumers for fair pricing.
+- Reduction of wastage and inefficiencies in the supply chain, leading to cost savings.
+- Transparency and accountability in subsidy disbursement through blockchain-based Direct Benefit Transfer with Affinidi-verified identities.
+- Potential reduction in farmer suicides and alleviation of financial stress in rural communities.
+
+## Conclusion:
+Our solution, leveraging both blockchain technology and Affinidi's DID solutions, holds immense potential to transform agricultural supply chains in India. By empowering farmers, ensuring transparency, and optimizing resource allocation, we aim to create a more sustainable, equitable, and efficient agricultural sector. This will contribute significantly to the well-being of rural communities, national food security, and showcase the transformative power of decentralized identity solutions like Affinidi.
 
